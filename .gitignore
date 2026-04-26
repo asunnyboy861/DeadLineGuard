@@ -1,0 +1,36 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# IDE
+*.xcscmblueprint
+*.xccheckout
+IDEWorkspaceChecks.plist
+
+# Build artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Misc
+*.lock
+*.log

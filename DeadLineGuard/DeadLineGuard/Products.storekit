@@ -1,0 +1,48 @@
+{
+  "identifier" : "DeadLineGuard",
+  "products" : [
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : false,
+      "internalID" : "lifetime_001",
+      "localizations" : [
+        {
+          "description" : "One-time purchase, forever access",
+          "displayName" : "DeadLineGuard Pro Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.zzoutuo.DeadLineGuard.pro.lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "subscriptionGroups" : [
+    {
+      "id" : "group_001",
+      "localizations" : [],
+      "name" : "DeadLineGuard Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "displayPrice" : "4.99",
+          "displayPriceLocale" : "en_US",
+          "introductoryOffer" : null,
+          "productID" : "com.zzoutuo.DeadLineGuard.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M"
+        },
+        {
+          "adHocOffers" : [],
+          "displayPrice" : "39.99",
+          "displayPriceLocale" : "en_US",
+          "introductoryOffer" : null,
+          "productID" : "com.zzoutuo.DeadLineGuard.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}
