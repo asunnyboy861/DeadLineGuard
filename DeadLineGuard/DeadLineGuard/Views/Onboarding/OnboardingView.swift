@@ -40,6 +40,15 @@ struct OnboardingView: View {
                         .buttonStyle(.borderedProminent)
                         .controlSize(.large)
                         .padding(.horizontal, 32)
+                    } else {
+                        Button(action: { currentPage += 1 }) {
+                            Text("Continue")
+                                .bold()
+                                .frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .controlSize(.large)
+                        .padding(.horizontal, 32)
                     }
                 }
                 .tag(index)
